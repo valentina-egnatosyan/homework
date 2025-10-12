@@ -1,7 +1,5 @@
 
 function countCharacters(str) {
-
-    // Optinal: Check if the input is a string
     if (typeof str !== 'string') {
         console.log("Invalid input: not a string");
         return -1; 
@@ -15,6 +13,5 @@ function countCharacters(str) {
 }
 
 console.log("Hello, world!".length)
-
 console.log(countCharacters("Hello, world!"));
 console.log(countCharacters(12345));

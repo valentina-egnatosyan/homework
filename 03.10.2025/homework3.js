@@ -1,11 +1,4 @@
-function reversSring(str) {
-    let result = "";
-
-
-for (let i = str.length - 1; i >= 0; i--) {
-    result += str[i];
-}
-return result;
-
-}
-console.log(reversSring("Hello World"));
+function sum(a, b) {
+    return a + b;
+}           
+console.log(sum(3, 5));

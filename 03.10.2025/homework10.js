@@ -1,5 +1,3 @@
-// Write a function that returns the sum of all elements in an array of numbers.
-
 function computeSum(arr) {
     const size = arr.length;
     let sum = 0;

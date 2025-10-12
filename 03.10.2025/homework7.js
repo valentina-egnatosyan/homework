@@ -1,13 +1,14 @@
-
-function computeSum(arr) {
+function findIndex(arr) {
     const size = arr.length;
-    let sum = 0;
-
-    for(let i = 0; i < size; ++i) {
-        sum += arr[i];
-    }           
-    return sum;
+    
+    for(let i = 0; i < size; i++) {
+        if (arr[i] === 9) {
+            return i; 
+        }
+    }
+    return -1; 
 }
 
-const arr = [50, 75, 100];
-console.log(computeSum(arr));
+const arr = [3, 6, 9, 12];
+console.log(findIndex(arr)); 
+

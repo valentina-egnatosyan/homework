@@ -1,5 +1,3 @@
-const ask = require("../../ask");
-
 function search(sentnse, substring) {
     if (typeof sentnse !== 'string' || typeof substring !== 'string') {
         console.log("Invalid input: not a string");
