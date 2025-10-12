@@ -1,4 +1,4 @@
-1//////
+
 // function indexOf(arr, fn) {
 //     const size = arr.length;
     
@@ -13,7 +13,7 @@
 // const indexNumbers = indexOf(arr, (num) => num === 1);
 // console.log(indexNumbers);
 
-2//////
+
 function indexOf(arr, value) {
     const size = arr.length;
     
