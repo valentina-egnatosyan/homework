@@ -33,3 +33,29 @@ class Rectangle {
 const myRectangle  = new Rectangle (1,1);
 console.log("Area", myRectangle.area());
 console.log("Perimeter", myRectangle.perimeter());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const car = {
+    color: "Black",
+    model: "BMW",
+};
+
+
+
+
+
+
+
+
